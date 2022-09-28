@@ -1,0 +1,50 @@
+@media (max-width:576px){
+    .d-flex{
+        display: none;
+    }
+    .contenttp img{
+        display: none;
+    }
+    .footerico{
+        margin-top: 30px;
+    }
+    .mail , .phone{
+        display: flex;
+        
+    }
+    .chatbox{
+        display: inline;
+    }
+    .chatbox >form > input{
+        width: 100%;
+        height: auto;
+    }
+    .mgs >form > input{
+        width: 100%;
+        height: auto;
+    }
+    .mgs >form > textarea{
+        width: 100%;
+        height: auto;
+    }
+    .btn {
+        display: flex;
+        justify-content: center;
+       
+
+    }
+    .banner:after{
+        display: none;
+    }
+
+}
+@media (max-width:320px){
+    .banner-content h1{
+        font-size: 50px ;
+        color:  rgb(73, 99, 242);
+        font-weight: bold;
+}
+
+
+
+}
